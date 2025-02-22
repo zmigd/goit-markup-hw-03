@@ -237,7 +237,7 @@ p,
   background: var(--white);
 }
 .team-list_card-case {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .portfolio-list-item-case{
