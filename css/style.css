@@ -253,4 +253,5 @@ p,
 .portfolio-list-item-case {
   text-align: left;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
