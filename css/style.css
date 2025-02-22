@@ -213,11 +213,9 @@ p,
   max-width: 496px;
   margin: 0 auto;
 }
-.service-list_item {
+.service-list_item, .portfolio-list-item {
   width: calc((100% - 72px) / 4);
-  width: calc((100% - 3 * 24px) / 4);
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
+  
 }
 .portfolio-list-item-case {
   border-top: none;
