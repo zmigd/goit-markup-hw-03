@@ -215,7 +215,6 @@ p,
 }
 .service-list_item {
   width: calc((100% - 72px) / 4);
-  
 }
 .portfolio-list-item-case {
   border-top: none;
@@ -256,6 +255,9 @@ p,
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.service-list_item{
+.service-list_item {
   width: calc((100% - 72px) / 4);
+}
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
 }
