@@ -255,3 +255,6 @@ p,
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.service-list_item{
+  width: calc((100% - 72px) / 4);
+}
