@@ -213,7 +213,7 @@ p,
   max-width: 496px;
   margin: 0 auto;
 }
-.service-list_item, .portfolio-list-item {
+.service-list_item {
   width: calc((100% - 72px) / 4);
   
 }
