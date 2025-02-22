@@ -12,12 +12,19 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
-img{
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
   display: block;
 }
-.container{
-  max-width: 1128px;
+.container {
+  max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 :root {
   --font-family: "Roboto", sans-serif;
@@ -30,6 +37,9 @@ body {
 }
 address {
   font-style: normal;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-adress ul li a {
   font-family: var(--font-family);
@@ -62,6 +72,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 .header-logo_span {
   color: var(--navy-blue);
@@ -106,6 +117,7 @@ p,
   background: #2e2f42;
 }
 .hero-btn {
+  display: block;
   background: var(--iris);
   cursor: pointer;
   font-family: var(--font-family);
@@ -114,6 +126,13 @@ p,
   line-height: 150%;
   letter-spacing: 0.04em;
   color: var(--white);
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 auto;
+  margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -147,4 +166,32 @@ p,
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
+}
+
+.section {
+  padding: 120px 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.header-flex {
+  justify-content: space-between;
+}
+.header-nav_list,
+.header-adress-list {
+  justify-content: center;
+  gap: 40px;
+}
+.header-nav_link {
+  padding: 24px 0;
+}
+.hero {
+  padding: 188px 0;
+}
+.hero-title {
+  max-width: 496px;
+  margin: 0 auto;
+}
+.hero-btn {
 }
