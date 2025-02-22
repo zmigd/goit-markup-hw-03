@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 img {
+  width: 100%;
   display: block;
 }
 .container {
@@ -258,6 +259,6 @@ p,
 .service-list_item {
   width: calc((100% - 72px) / 4);
 }
-/* .portfolio-list-item {
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
-} */
+}
