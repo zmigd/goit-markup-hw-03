@@ -12,6 +12,13 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+img{
+  display: block;
+}
+.container{
+  max-width: 1128px;
+  margin: 0 auto;
+}
 :root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
