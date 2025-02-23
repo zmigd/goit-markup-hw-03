@@ -151,6 +151,7 @@ p,
 justify-content: center;
 flex-direction: column;
   width: calc((100% - 72px) / 4);
+  width: 264px;
 }
 .service-list_item{
   display: flex;
@@ -158,6 +159,7 @@ flex-direction: column;
 justify-content: center;
 flex-direction: column;
   width: calc((100% - 72px) / 4);
+  width: 264px;
 }
 .visually-hidden {
   position: absolute;
