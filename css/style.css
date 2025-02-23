@@ -146,9 +146,11 @@ p,
 }
 .team-list_card {
   background: var(--white);
+  display: block;
   width: calc((100% - 72px) / 4);
 }
 .service-list_item{
+  display: block;
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
