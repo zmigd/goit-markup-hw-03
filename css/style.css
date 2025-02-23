@@ -146,22 +146,24 @@ p,
 }
 .team-list_card {
   background: var(--white);
+  width: calc((100% - 72px) / 4);
+}
+.service-list_item{
+  width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
-  visibility: hidden;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.service-title{
-  visibility: hidden;
-}
+
 .footer {
   background: var(--navy-blue);
   padding: 100px 0;
