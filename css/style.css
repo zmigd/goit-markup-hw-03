@@ -31,11 +31,11 @@ img {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
-.service-list_item, .team-list_card {
+.service-list_item-first, .team-list_card-first {
   width: calc((100% - 72px) / 4);
 }
 
-.portfolio-list-item {
+.portfolio-list-item-first {
   width: calc((100% - 48px) / 3);
 }
 body {
