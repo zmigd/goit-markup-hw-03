@@ -20,6 +20,7 @@ a {
 }
 img {
   width: 100%;
+  height: auto;
   display: block;
 }
 .container {
@@ -257,3 +258,5 @@ p,
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+
