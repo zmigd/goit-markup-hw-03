@@ -146,11 +146,17 @@ p,
 }
 .team-list_card {
   background: var(--white);
-  display: block;
+  display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
   width: calc((100% - 72px) / 4);
 }
 .service-list_item{
-  display: block;
+  display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
