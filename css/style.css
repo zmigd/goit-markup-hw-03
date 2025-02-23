@@ -32,6 +32,7 @@ img {
   --second-family: "Raleway", sans-serif;
 }
 body {
+  
   font-family: var(--font-family);
   background: var(--white);
   color: var(--slate);
