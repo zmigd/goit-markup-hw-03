@@ -193,8 +193,12 @@ p,
   display: flex;
   
 }
+.header-nav{
+  align-items: center;
+}
 .header-flex {
   justify-content: space-between;
+  align-items: center;
 }
 .header-nav_list,
 .header-adress-list {
