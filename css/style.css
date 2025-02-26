@@ -86,7 +86,7 @@ address {
 .header-logo_span {
   color: var(--navy-blue);
 }
-h1 {
+.hero-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
@@ -95,7 +95,7 @@ h1 {
   text-align: center;
   color: var(--white);
 }
-h2 {
+.taem-title, .portfolio-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
@@ -105,7 +105,7 @@ h2 {
   color: var(--navy-blue);
   text-transform: capitalize;
 }
-h3 {
+.service-list_title, .team-list_card_title, .portfolio-list-item_title {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -113,8 +113,8 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-p,
-.team-list_card_text {
+
+.team-list_card_text, .service-list_text, .portfolio-list-item_text, .footer-text {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
@@ -227,9 +227,7 @@ p,
   margin: 0 auto;
 }
 
-.portfolio-list-item-case {
-  border-top: none;
-}
+
 .service-list_title,
 .team-list_card_title,
 .portfolio-list-item_title {
@@ -260,17 +258,12 @@ p,
 .portfolio-list-item-case {
   padding: 32px 16px;
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-list {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-}
-
-.portfolio-list-item-case {
-  text-align: left;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .service-list, .team-list, .portfolio-list{
